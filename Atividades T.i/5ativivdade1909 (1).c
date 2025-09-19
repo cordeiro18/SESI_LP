@@ -18,7 +18,11 @@ void main() {
         if(vetor[i] > maior) {
             maior = vetor[i];
         }
-        if(vetor[i] < menor) {
+        else if(vetor[i] < menor) {
             menor = vetor[i];
         }
     }
+
+    printf("O maior valor do vetor é: %d\n", maior);
+    printf("O menor valor do vetor é: %d\n", menor);
+}
